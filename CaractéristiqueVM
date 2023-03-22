@@ -1,0 +1,28 @@
+C'est quoi une VM de quoi elle caractérisé ?
+ Une VM c'est une machine virtuelle qui est caractérisé par VCPU qui est un cpu virtuelle .
+ Et non pas un CPU qui est spécifique a un ordinateur physique.
+ Dans le cloud ou autre tout est facturé une machine avec 8vcpu n'as pas le mem prix qu'une machine avec 4 vcpu.
+ Sur une VM nous avons plusieures informations a savoir:
+ Nom du serveur
+ 
+ Role: Nominal ou Backup.
+ 
+ Type de serveur: Machine virtuel.
+ 
+ Systéme d'exploitation Red Hat linux 7.9
+ 
+ SHA: 7,4
+ 
+ Environement,Label, Zone, Vlan ,
+ 
+ Et aussi des caractéristique technique comme VCPU =8, Memoire =48 GO,Stockage =280 GO
+ 
+ Software installé: Agent CFT,Oracle client, JRE, IBM Websphere Liberty Core wlc( 17.0.0.3)
+ 
+ Les FS systemes sur cette VM, créer des alertes sur ces FS pour qu'elles ne se remplissent pas trop et fige votre serveur.
+ 
+ On peut créer un script par exemple qui tourne par un cron ou job control m  qui check ces fs .
+ 
+ Mettre en place sur cette VM une politique de sauvegarde de fs , et de purge aussi.
+ 
+ 
