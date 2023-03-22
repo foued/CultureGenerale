@@ -29,9 +29,20 @@ C'est quoi une VM de quoi elle caractérisé ?
  
  Question:AMI et Snapshot différence ?
  
- L4AMI est une image d'une instance EC2 , elle peut etre créer a partir d'un snapshot.
+ La AMI est une image d'une instance EC2 c'est la backup d'une instance , elle peut etre créer a partir d'un snapshot.
  
- Snaphot c'est 
+ Snaphot c'est le volume ou les volume 
+ 
+ J'ai un volume ou fs de 100 G qui est /dev/xvdg qui est monté sur une instance EC2 et nous avons un repertoire applicatf /applis monté sur cette fs.
+ 
+ Je vais faire un snapshot de mon volume.
+ 
+ Comment remplacer mon ancien volume par mon nouveau volume.
+ en root: unmount /applis/ 
+ 
+ Apres je pourrais créer un volume a partir de ma nouvelle snapshot et l'affecter a ma EC2.
+ 
+ 
  
  
  
