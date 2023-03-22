@@ -13,7 +13,9 @@ C'est quoi une VM de quoi elle caractérisé ?
  
  SHA: 7,4
  
- Environement,Label, Zone, Vlan ,
+ Environement,Label, Zone, Vlan ,Cloud region (france ou autre, Availabilité zone)
+ 
+ Pour la partie zone: nous avons le non du serveur de la VM, son IP, son VLAN id, nom de VLAN.
  
  Et aussi des caractéristique technique comme VCPU =8, Memoire =48 GO,Stockage =280 GO
  
@@ -24,5 +26,14 @@ C'est quoi une VM de quoi elle caractérisé ?
  On peut créer un script par exemple qui tourne par un cron ou job control m  qui check ces fs .
  
  Mettre en place sur cette VM une politique de sauvegarde de fs , et de purge aussi.
+ 
+ Question:AMI et Snapshot différence ?
+ 
+ L4AMI est une image d'une instance EC2 , elle peut etre créer a partir d'un snapshot.
+ 
+ Snaphot c'est 
+ 
+ 
+ 
  
  
