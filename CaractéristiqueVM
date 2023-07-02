@@ -15,13 +15,15 @@ C'est quoi une VM de quoi elle caractérisé ?
  
  Environement,Label, Zone, Vlan ,Cloud region (france ou autre, Availabilité zone)
  
- Pour la partie zone: nous avons le non du serveur de la VM, son IP, son VLAN id, nom de VLAN.
+ Pour la partie zone: nous avons le nom du serveur de la VM, son IP, son VLAN id, nom de VLAN.
  
  Et aussi des caractéristique technique comme VCPU =8, Memoire =48 GO,Stockage =280 GO
  
  Software installé: Agent CFT,Oracle client, JRE, IBM Websphere Liberty Core wlc( 17.0.0.3)
  
  Les FS systemes sur cette VM, créer des alertes sur ces FS pour qu'elles ne se remplissent pas trop et fige votre serveur.
+
+ Gestion de la sauvegarde de ces FS via TSM comment on les définis , confs et paramétrages.
  
  On peut créer un script par exemple qui tourne par un cron ou job control m  qui check ces fs .
  
@@ -31,7 +33,7 @@ C'est quoi une VM de quoi elle caractérisé ?
  
  La AMI est une image d'une instance EC2 c'est la backup d'une instance , elle peut etre créer a partir d'un snapshot.
  
- Snaphot c'est le volume ou les volume 
+ Snaphot c'est le volume ou les volumes.
  
  J'ai un volume ou fs de 100 G qui est /dev/xvdg qui est monté sur une instance EC2 et nous avons un repertoire applicatf /applis monté sur cette fs.
  
