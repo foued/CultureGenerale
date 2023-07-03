@@ -1,1 +1,24 @@
+Mise en place d'un loadbalancer par exemple 
+
+Vous avez un serveur nas, un serveur web, et d'autres services dans votre réseau.
+
+Tous ces composants s'ils vont sur internet ils ne sont pas sécuriser .
+
+Pourquoi je ne met pas en place un Loadbalancer devant mes serveurs qui hebergent mon application ou services.
+
+et j'expose que le port 443 du loadbalancer et une seule IP publique celle de mon loadbalancer  pour les utilisateurs qui veulent me joindrent de l'exterieur.
+
+Chaque service ou application a un nom domaine www.monservice.com qui sur IP.
+
+Imaginons que www.nomservice.com est hebergé sur +ieures serveurs vu que nous avons beaucoup de Traffic.
+
+Comment on va dire au gens d'utliser toutes les machines et non pas une seule machine.
+
+Comment on organiser le Traffic.
+
+Les gens vont vers le loadbalancer au lieu d'aller vers les serveurs directement.
+
+Question : comment on va mettre en place tout ça :
+1- On va mettre en place une VM , dont on va installer un loadbalancer
+
 
