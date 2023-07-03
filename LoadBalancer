@@ -19,6 +19,17 @@ Comment on organiser le Traffic.
 Les gens vont vers le loadbalancer au lieu d'aller vers les serveurs directement.
 
 Question : comment on va mettre en place tout ça :
-1- On va mettre en place une VM , dont on va installer un loadbalancer
+1- On va mettre en place une VM , dont on va installer un loadbalancer.
+2-Une fois que le loadbalancer est installé, on va configurer un service virtuelle, qui est un IP virtulle VIP qui écoute sur un port 443. exemple 10.7.1.30:443 en gros .
+
+Et a traver cette IP on peut accéder a nos services.
+
+Je vais commencer a configurer un sub virtual service on va lui donner l'IP de mon nas par exemple 10.7.1.21 sur le port 5001
+
+On va créer les noms de domaines se nos serveurs, apres faire pointer 
+
+
+
+
 
 
