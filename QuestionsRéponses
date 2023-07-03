@@ -2,3 +2,6 @@ Nous avons detecté que certains accés a des serveurs est bloqué:
 1 Est ce que ces serveurs sont sur une zone (AZ) qui est bloqué pour tout type d'accés.
 2 Est ce que c'est volontairement bloqué via un CHG qu'ils ont bloqués les accés.
 3- Il faut savoir pourquoi les flux sont bloqués.
+
+Question2: Nous avons un composant dot.net a installé sur un serveur windows.
+Dans quel répertoire il faut l'installer, pour paramétrer ça dans le setup : (programme files, ou autre répertoire spécifique)
