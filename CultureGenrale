@@ -1,0 +1,20 @@
+Dans un réseau local , comme un réseau domestique ( maison, université ou autre) qui est composé d'un ou plusieures ordinateurs
+de smartphone , imprimante,...et qui sont relié dans un network, chaque device est identifié par une @IP.
+Comment s'envoient ces devices entre eux des données ?
+Dans ce type de réseau ces devices échangent les données via un switcheur ( switch) mais dés qu'ils veulent envoyer 
+des données hors de leur LAN ou network vers internet ou autre LAN ou VLAN , il passe par le Routeur.
+Ce dernier se dernier a une adresse IP publique qui s'appelle la Gateway.
+Routeur = Gateway.
+
+Adresse Natté ou @Adresse Nat, c'est quand vous envoyer une requet depuis un serveur vers un autre serveur dans un autre réseau 
+
+il passe par le rooteur ou Gateway de votre réseau et il va sortir vers ce réseau avec l'@ IP de ce Gateway qui s'appelle l'adresse Natté
+qui est l'@ natté et son avantage est de sécurisé votre réseau.
+
+Vlan --->Gateway ---->Firewall--->VLAN2
+
+
+Quand on fait des nouvelles demandes d'ouvertures de flux , ces demandes une fois faites vont etre poussé sur le firewall.
+
+DNS: c'est la résolution de l'adresse ou URL en @IP et vice versa , par exemple l'url de facebook ou autre dérriére elle nous
+avons plusieures serveurs qui hebergent cette application
